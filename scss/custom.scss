@@ -1,0 +1,26 @@
+$isabelline: #f2efeaff;
+$outrageous-orange: #fc7753ff;
+$medium-turquoise: #66d7d1ff;
+$independence: #403d58ff;
+$straw: #dbd56eff;
+
+$dark-slate-gray: #2b4141ff;
+$pacific-blue: #0eb1d2ff;
+$fluorescent-blue: #34e4eaff;
+$opal: #8ab9b5ff;
+$bone: #c8c2aeff;
+
+
+$bg-accent : #3A4750;
+$active-color : #00ADB5;
+
+@font-face {
+    font-family: "Caveat";
+        src: url("../fonts/Caveat-VariableFont_wght.ttf") format("truetype");
+    }
+
+$headings-font-family:"Caveat";
+$body-bg : #303841;
+$body-color : $isabelline;
+
+@import '~bootstrap/scss/bootstrap.scss';
