@@ -21,10 +21,16 @@ class App extends React.Component {
                 <SocialIcon target="_blank" fgColor="#ffffff" url="https://github.com/LotuxPunk" style={{ height: 50, width: 50 }} />
               </Boop>
               <Boop scale={1.1} timing={200}>
-                <SocialIcon target="_blank" url="mailto:vandendaelen@gmail.com" style={{ height: 50, width: 50 }} />
+                <SocialIcon url="mailto:vandendaelen@gmail.com" style={{ height: 50, width: 50 }} />
               </Boop>
               <Boop scale={1.1} timing={200}>
                 <SocialIcon target="_blank" fgColor="#ffffff" url="https://discordapp.com/users/212577316960862208" style={{ height: 50, width: 50 }} />
+              </Boop>
+              <Boop scale={1.1} timing={200}>
+                <SocialIcon target="_blank" fgColor="#ffffff" url="https://www.twitch.tv/lotuxpunk" style={{ height: 50, width: 50 }} />
+              </Boop>
+              <Boop scale={1.1} timing={200}>
+                <SocialIcon target="_blank" fgColor="#ffffff" url="https://www.reddit.com/user/LotuxPunk" style={{ height: 50, width: 50 }} />
               </Boop>
             </div>
           </div>
