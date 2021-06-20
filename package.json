@@ -12,7 +12,7 @@
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "echo 'vandendaelen.com' > ./build/CNAME && gh-pages -d dist"
   },
   "dependencies": {
     "@popperjs/core": "^2.9.2",
