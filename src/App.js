@@ -8,23 +8,23 @@ class App extends React.Component {
     return (
       <>
         <div class="container">
-          <h1 class="vertical text-center display-1">Hi. I'm Clément Vandendaelen<br /><small class="text-muted">Analyst programmer</small></h1>
+          <h1 class="vertical text-center display-1">Hi. I'm Clément Vandendaelen<br /><small class="text-muted">Programmer Analyst</small></h1>
           <div class="container mt-5">
             <div class="d-flex gap-3 mx-auto justify-content-center">
               <Boop scale={1.1} timing={200}>
-                <SocialIcon className="mh-2" fgColor="#ffffff" url="https://twitter.com/VandendaelenC" style={{ height: 50, width: 50 }} />
+                <SocialIcon target="_blank" className="mh-2" fgColor="#ffffff" url="https://twitter.com/VandendaelenC" style={{ height: 50, width: 50 }} />
               </Boop>
               <Boop scale={1.1} timing={200}>
-                <SocialIcon fgColor="#ffffff" url="https://www.linkedin.com/in/cl%C3%A9ment-vandendaelen/" style={{ height: 50, width: 50 }} />
+                <SocialIcon target="_blank" fgColor="#ffffff" url="https://www.linkedin.com/in/cl%C3%A9ment-vandendaelen/" style={{ height: 50, width: 50 }} />
               </Boop>
               <Boop scale={1.1} timing={200}>
-                <SocialIcon fgColor="#ffffff" url="https://github.com/LotuxPunk" style={{ height: 50, width: 50 }} />
+                <SocialIcon target="_blank" fgColor="#ffffff" url="https://github.com/LotuxPunk" style={{ height: 50, width: 50 }} />
               </Boop>
               <Boop scale={1.1} timing={200}>
-                <SocialIcon url="mailto:vandendaelen@gmail.com" style={{ height: 50, width: 50 }} />
+                <SocialIcon target="_blank" url="mailto:vandendaelen@gmail.com" style={{ height: 50, width: 50 }} />
               </Boop>
               <Boop scale={1.1} timing={200}>
-                <SocialIcon fgColor="#ffffff" url="https://discordapp.com/users/212577316960862208" style={{ height: 50, width: 50 }} />
+                <SocialIcon target="_blank" fgColor="#ffffff" url="https://discordapp.com/users/212577316960862208" style={{ height: 50, width: 50 }} />
               </Boop>
             </div>
           </div>
