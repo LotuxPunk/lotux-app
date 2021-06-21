@@ -2,35 +2,42 @@
 import React from "react";
 import { SocialIcon } from 'react-social-icons';
 import { animated, useSpring } from 'react-spring';
+import icon from '../assets/icon.png'
 
 class App extends React.Component {
   render() {
     return (
       <>
-        <div class="container">
-          <h1 class="vertical text-center display-1">Hi. I'm Clément Vandendaelen<br /><small class="text-muted">Programmer Analyst</small></h1>
-          <div class="container mt-5">
-            <div class="d-flex gap-3 mx-auto justify-content-center">
+        <div className="container-fluid vertical">
+          <div className="mx-auto d-flex justify-content-center">
+            <Boop rotation={5} timing={200}>
+              <img src={icon} className="img-fluid rounded-circle" style={{maxWidth:"200px"}} alt="Floppy disk icon"/>
+            </Boop>
+          </div>
+          <h1 className="text-center display-1">Hi. I'm Clément Vandendaelen</h1>
+          <h1 className="text-center display-1"><small className="text-muted">Programmer Analyst</small></h1>
+          <div className="container-fluid mt-5">
+            <div className="d-flex gap-3 mx-auto justify-content-center">
               <Boop scale={1.1} timing={200}>
-                <SocialIcon target="_blank" className="mh-2" fgColor="#ffffff" url="https://twitter.com/VandendaelenC" style={{ height: 50, width: 50 }} />
+                <SocialIcon target="_blank" className="img-fluid" fgColor="#ffffff" url="https://twitter.com/VandendaelenC" />
               </Boop>
               <Boop scale={1.1} timing={200}>
-                <SocialIcon target="_blank" fgColor="#ffffff" url="https://www.linkedin.com/in/cl%C3%A9ment-vandendaelen/" style={{ height: 50, width: 50 }} />
+                <SocialIcon target="_blank" className="img-fluid" fgColor="#ffffff" url="https://www.linkedin.com/in/cl%C3%A9ment-vandendaelen/" />
               </Boop>
               <Boop scale={1.1} timing={200}>
-                <SocialIcon target="_blank" fgColor="#ffffff" url="https://github.com/LotuxPunk" style={{ height: 50, width: 50 }} />
+                <SocialIcon target="_blank" className="img-fluid" fgColor="#ffffff" url="https://github.com/LotuxPunk" />
               </Boop>
               <Boop scale={1.1} timing={200}>
-                <SocialIcon url="mailto:vandendaelen@gmail.com" style={{ height: 50, width: 50 }} />
+                <SocialIcon url="mailto:vandendaelen@gmail.com" />
               </Boop>
               <Boop scale={1.1} timing={200}>
-                <SocialIcon target="_blank" fgColor="#ffffff" url="https://discordapp.com/users/212577316960862208" style={{ height: 50, width: 50 }} />
+                <SocialIcon target="_blank" className="img-fluid" fgColor="#ffffff" url="https://discordapp.com/users/212577316960862208" />
               </Boop>
               <Boop scale={1.1} timing={200}>
-                <SocialIcon target="_blank" fgColor="#ffffff" url="https://www.twitch.tv/lotuxpunk" style={{ height: 50, width: 50 }} />
+                <SocialIcon target="_blank" className="img-fluid" fgColor="#ffffff" url="https://www.twitch.tv/lotuxpunk" />
               </Boop>
               <Boop scale={1.1} timing={200}>
-                <SocialIcon target="_blank" fgColor="#ffffff" url="https://www.reddit.com/user/LotuxPunk" style={{ height: 50, width: 50 }} />
+                <SocialIcon target="_blank" className="img-fluid" fgColor="#ffffff" url="https://www.reddit.com/user/LotuxPunk" />
               </Boop>
             </div>
           </div>
