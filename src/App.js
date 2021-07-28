@@ -28,7 +28,7 @@ class App extends React.Component {
                 <SocialIcon target="_blank" className="img-fluid" fgColor="#ffffff" url="https://github.com/LotuxPunk" />
               </Boop>
               <Boop scale={1.1} timing={200}>
-                <SocialIcon url="mailto:vandendaelen@gmail.com" />
+                <SocialIcon url="mailto:vandendaelenclement@gmail.com" />
               </Boop>
               <Boop scale={1.1} timing={200}>
                 <SocialIcon target="_blank" className="img-fluid" fgColor="#ffffff" url="https://discordapp.com/users/212577316960862208" />
